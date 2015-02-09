@@ -33,7 +33,7 @@ ADD files/init_coord.sh /home/postgres/init_coord.sh
 ADD files/init_datanode.sh /home/postgres/init_datanode.sh
 ADD files/init_gtmm.sh /home/postgres/init_gtmm.sh
 ADD files/init_gtms.sh /home/postgres/init_gtms.sh
-ADD files/hosts.sh /home/postgres/hosts.sh
+
 RUN chmod +x /home/postgres/*.sh
 
 VOLUME /postgres
